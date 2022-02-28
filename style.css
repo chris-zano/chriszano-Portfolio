@@ -126,6 +126,9 @@ section .title::after{
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
+    text-decoration: underline;
+    transform: scale(1.15);
+    transition: all 0.3s ease;
 }
 
 /* menu btn styling */

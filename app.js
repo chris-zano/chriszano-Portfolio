@@ -41,4 +41,6 @@ function ready() {
         formDetails.message = message.value
         localStorage.setItem('contactForm',JSON.stringify(formDetails));
     })
+
+    
 }
