@@ -24,4 +24,21 @@ function ready() {
     document.getElementById('miztaGrills').addEventListener('click',() => {
         location.href = "https://chris-zano.github.io/miztaGrills/"
      })
+
+
+     const form = document.getElementById('contact-form'),
+            name = document.getElementById('name'),
+            email = document.getElementById('email'),
+            subject = document.getElementById('subject'),
+            message = document.getElementById('message');
+    
+    form.addEventListener('submit',(e)=>{
+        var formDetails = {}
+        e.preventDefault()
+        formDetails.name = name.value
+        formDetails.email = email.value
+        formDetails.subject = subject.value
+        formDetails.message = message.value
+        localStorage.setItem('contactForm',JSON.stringify(formDetails));
+    })
 }
