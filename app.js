@@ -13,17 +13,17 @@ function ready() {
        location.href = "https://chris-zano.github.io/documentation-page/"
     })
     document.getElementById('namegen').addEventListener('click',() => {
-       location.href = "https://chris-zano.github.io/Le-Cho/"
+       location.href = " https://chris-zano.github.io/name-generator/"
     })
     document.getElementById('carinsu').addEventListener('click',() => {
-       location.href = "https://chris-zano.github.io/Le-Cho/"
+       location.href = "https://chris-zano.github.io/car-Insurance-calculator/"
     })
     document.getElementById('survey').addEventListener('click',() => {
        location.href = "https://chris-zano.github.io/survey_form/"
-    })
-    document.getElementById('miztaGrills').addEventListener('click',() => {
-        location.href = "https://chris-zano.github.io/miztaGrills/"
      })
+    // document.getElementById('miztaGrills').addEventListener('click',() => {
+    //     location.href = "https://chris-zano.github.io/survey_form/"
+    //  })
 
 
      const form = document.getElementById('contact-form'),
