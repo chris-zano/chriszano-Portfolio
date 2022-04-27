@@ -325,8 +325,14 @@ section .title::after{
     margin-bottom: 10px;
 }
 .skills .skills-content .left p{
-    text-align: justify;
+    text-align: justify;    
 }
+.skills .skills-content .left ol{
+    list-style: disc;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
 .skills .skills-content .left a{
     display: inline-block;
     background: #14dc25;
@@ -372,20 +378,23 @@ section .title::after{
     background: #14dc25;
     border-radius: 1rem;
 }
-.skills-content .right .html::before{
+.skills-content .right .html-css::before{
     width: 90%;
 }
-.skills-content .right .css::before{
+.skills-content .right .kotlin-Java::before{
     width: 60%;
 }
 .skills-content .right .js::before{
     width: 80%;
 }
-.skills-content .right .php::before{
-    width: 50%;
+.skills-content .right .react-jQuery::before{
+    width: 58%;
 }
 .skills-content .right .mysql::before{
-    width: 50%;
+    width: 65%;
+}
+.skills-content .right .nodeJS::before{
+    width: 75%;
 }
 
 /* projects section styling */

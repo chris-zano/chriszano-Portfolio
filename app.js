@@ -9,8 +9,8 @@ function ready() {
     document.getElementById('le-cho').addEventListener('click',() => {
         location.href = "https://chris-zano.github.io/Le-Cho/"
     })
-    document.getElementById('jsdocs').addEventListener('click',() => {
-       location.href = "https://chris-zano.github.io/documentation-page/"
+    document.getElementById('tabbi').addEventListener('click',() => {
+       location.href = "https://desolate-escarpment-76601.herokuapp.com/index.html"
     })
     document.getElementById('namegen').addEventListener('click',() => {
        location.href = " https://chris-zano.github.io/name-generator/"
