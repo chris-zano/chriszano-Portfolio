@@ -10,7 +10,7 @@ function ready() {
         location.href = "https://chris-zano.github.io/Le-Cho/"
     })
     document.getElementById('tabbi').addEventListener('click',() => {
-       location.href = "https://desolate-escarpment-76601.herokuapp.com/index.html"
+       location.href = "https://tabbi-web.herokuapp.com/"
     })
     document.getElementById('namegen').addEventListener('click',() => {
        location.href = " https://chris-zano.github.io/name-generator/"
