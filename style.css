@@ -11,20 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* custom scroll bar */
-::-webkit-scrollbar {
-    width: 10px;
-}
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-::-webkit-scrollbar-thumb {
-    background: #888;
-}
 
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
 
 /* all similar content styling codes */
 section{
@@ -36,7 +23,8 @@ section{
     margin: auto;
 }
 .about, .services, .skills, .projects, .contact, footer{
-    font-family: sans-serif;;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: 600;
 }
 .about .about-content,
 .services .serv-content,
@@ -54,7 +42,8 @@ section .title{
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: sans-serif;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: 600;
 }
 section .title::before{
     content: "";
@@ -83,14 +72,15 @@ section .title::after{
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    font-family: sans-serif;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: 600;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     transition: all 0.3s ease;
+    background: rgba(71, 66, 66, 0.267);
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #14dc25;
 }
 .navbar .max-width{
     display: flex;
@@ -138,13 +128,13 @@ section .title::after{
     cursor: pointer;
     display: none;
 }
-.scroll-up-btn{
+/* .scroll-up-btn{
     position: fixed;
     height: 45px;
     width: 42px;
     background: #14dc25;
     right: 30px;
-    bottom: 10px;
+    bottom: 70px;
     text-align: center;
     line-height: 45px;
     color: #fff;
@@ -164,7 +154,7 @@ section .title::after{
 }
 .scroll-up-btn:hover{
     filter: brightness(90%);
-}
+} */
 
 
 /* home section styling */
@@ -178,7 +168,8 @@ section .title::after{
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
-    font-family: sans-serif;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: 600;
 }
 .home .max-width{
   width: 100%;
@@ -329,7 +320,8 @@ section .title::after{
 }
 .skills .skills-content .left ol{
     list-style: disc;
-    font-family: sans-serif;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: 600;
     font-size: 1.2rem;
 }
 
@@ -523,7 +515,8 @@ section .title::after{
     outline: none;
     padding: 0 15px;
     font-size: 17px;
-    font-family: sans-serif;;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: 600;
     transition: all 0.3s ease;
 }
 .contact .right form .field input:focus,

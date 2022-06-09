@@ -9,11 +9,11 @@ $(document).ready(function(){
         }
         
         // scroll-up button show/hide script
-        if(this.scrollY > 500){
-            $('.scroll-up-btn').addClass("show");
-        }else{
-            $('.scroll-up-btn').removeClass("show");
-        }
+        // if(this.scrollY > 5){
+        //     $('.scroll-up-btn').addClass("show");
+        // }else{
+        //     $('.scroll-up-btn').removeClass("show");
+        // }
     });
 
     // slide-up script
