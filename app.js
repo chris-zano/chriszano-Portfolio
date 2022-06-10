@@ -7,7 +7,7 @@ else {
 
 function ready() {
     document.getElementById('le-cho').addEventListener('click',() => {
-        location.href = "https://chris-zano.github.io/Le-Cho/"
+        location.href = "http://miztagrills.herokuapp.com/#"
     })
     document.getElementById('tabbi').addEventListener('click',() => {
        location.href = "https://tabbi-web.herokuapp.com/"
